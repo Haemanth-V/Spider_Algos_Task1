@@ -7,7 +7,7 @@ using namespace std;
 // (0 for adding 1 and 1 for subtracting 1) and alters the input string
 // upto that position and returns the final result after checking for a left out 1
 // obtained by adding 1 to for instance 1111
-//Using +1 and -1 because if they dont satisfy the legnth constraint then nothing else would 
+//Using +1 and -1 because if they dont satisfy the length constraint then nothing else would 
 
 string new_number(string num, int length, char check){
 	int i;
