@@ -33,7 +33,7 @@ int main(){
 	string number,number1,number2;
 	cin>>length>>number;
 
-    //reversing string for traversing from 0 index
+        //reversing string for traversing from 0 index
 	reverse(number.begin(), number.end());
 	
 	//input +1 string
@@ -51,6 +51,6 @@ int main(){
 	else if(number2[0]!='1' && number[length-1]=='1') //checking for leading zeroes also as in 0001 in input
 	    cout<<"-1";
 	else
-		cout<<number2<<" "<<number1;
+  	    cout<<number2<<" "<<number1;
 
 }
