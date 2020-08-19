@@ -22,7 +22,7 @@ int main(){
 	 	if(scn[i]==1)
 	   	   final_r += x;  //Increasing rating as he would perform well in contest
 		else  
-		   final_r -= y;
+		   final_r -= y;  //Decreasing rating otherwise
 	     }
 	 }
 	
