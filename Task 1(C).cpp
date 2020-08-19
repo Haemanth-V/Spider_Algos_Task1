@@ -29,7 +29,7 @@ int main(){
 		   break;
 	    }
 	    
-	    //The only case where 16 interferes (undesirable)
+	    //The only case in which 16 interferes (undesirable)
 	    if(product == 80){
 	    	a[0] = 8;
 	    	a[1] = 10;
